@@ -207,7 +207,18 @@ margin: 0 auto;
 
 .features-items{
   width: calc((100% - 72px) / 4);
-  border:  1px solid #000000;
+}
+
+.features-svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
 }
 
 .features-title {
@@ -383,4 +394,13 @@ background: var(--white);
  letter-spacing: 0.02em;
  color: #F4F4FD;
  width:264px;
+}
+
+.p-social-media{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin: auto;
 }
