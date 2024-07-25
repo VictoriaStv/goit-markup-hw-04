@@ -342,6 +342,35 @@ margin: 0 auto;
 background: var(--white);
 }
 
+.img-wrapper{
+position: relative;
+overflow: hidden;
+}
+
+.img-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transform: translateY(464px);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+background-color: #4D5AE5;
+padding-left: 32px;
+padding-top: 40px;
+padding-right: 32px;
+padding-bottom: 164px;
+}
+
+.portfolio-items:hover .img-text {
+  transform: translate(0);
+}
+
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
