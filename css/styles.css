@@ -2,10 +2,10 @@
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 
-  --accent-color: rgb(77, 90, 229);
+  --iris: #4d5ae5;
   --hover-color: rgb(64, 75, 191);
   --secondary-dark-color: rgb(46, 47, 66);
-  --green: rgb(49, 208, 170);
+  --green: #31d0aa;
   --secondary-color: rgb(67, 68, 85);
   --light-slate: rgb(142, 143, 153);
   --secondary-light: rgb(231, 233, 252);
@@ -14,6 +14,7 @@
   --grey: rgba(46, 47, 66, 0.7);
   --primary-color: rgb(255, 255, 255);
   --light-color: rgb(252, 252, 252);
+
   --items: 4;
   --col-indent: 24px;
   --row-indent: var(--col-indent);
@@ -352,7 +353,7 @@ img {
   height: 40px;
   border-radius: 50%;
   color: var(--cloud);
-  background-color: var(--accent-color);
+  background-color: var(--iris);
   border: 1px solid var(--frame-cl);
   transition: background-color var(--anim-time);
 }
@@ -399,7 +400,7 @@ img {
 
 .portfolio-items {
   width: calc((100% - 48px) / 3);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-items:hover {
@@ -426,11 +427,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   padding: 40px 32px;
   padding-bottom: 174px;
-  height: 100%;
-  width: 100%;
 }
 
 .portfolio-items:hover .img-text {
@@ -548,7 +547,7 @@ img {
   height: 100%;
   border-radius: 50%;
   color: var(--cloud);
-  background-color: var(--accent-color);
+  background-color: var(--iris);
   border: 1px solid var(--frame-cl);
   transition: background-color var(--anim-time);
 }
