@@ -364,11 +364,15 @@ background-color: #4D5AE5;
 padding-left: 32px;
 padding-top: 40px;
 padding-right: 32px;
-padding-bottom: 164px;
+padding-bottom: 174px;
 }
 
 .portfolio-items:hover .img-text {
   transform: translate(0);
+}
+
+.img-portfolio{
+width: 100%;
 }
 
 .portfolio-title {
