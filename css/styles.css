@@ -424,12 +424,18 @@ img {
   width: 100%;
   height: 100%;
   color: var(--cloud);
+  background-color: var(--iris);
+  padding: 40px 32px;
+}
+
+.overlay-text {
+  font-family: var(--primary-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: var(--iris);
-  padding: 40px 32px;
+  padding: 40px 32px 0px 32px;
+  width: 306px;
 }
 
 .portfolio-items:hover .img-text {
